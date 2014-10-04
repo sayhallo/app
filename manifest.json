@@ -15,6 +15,10 @@
       { 
         "matches": ["https://www.facebook.com/*"],
         "js": ["vendor/firebase-1.1.0.js", "lib/background.js"]
+      },
+      { 
+        "matches": ["https://www.facebook.com/*"],
+        "js": ["lib/ui.js"]
       }
     ]
 }
